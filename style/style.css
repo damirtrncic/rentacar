@@ -1,0 +1,125 @@
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.d1{
+width: 100%;
+height: 50%;
+float: left;
+
+}
+.d2
+{
+width: 65%;
+height: 95%;
+
+float: left;
+
+
+}
+.d3
+{
+width: 30%;
+height: 95%;
+float: left;
+border:2px solid #ccc;
+background: #fff;
+border-radius: 15px;
+border-width: 3px;
+border-height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    align-items: center;
+
+
+}
+.d4
+{
+width: 98%;
+height: 1.5%;
+margin: auto;
+padding: auto;
+
+float: left;
+
+}
+.d5
+{
+width: 35%;
+height: 70%;
+
+color: red;
+font-style: bold;
+float: left;
+}
+.d6
+{
+width: 70%;
+border-radius: 5px;
+height: 98%;
+padding: auto;
+margin: auto;
+color: red;
+float: left;
+}
+input{
+	display: block;
+	border:2px solid #ccc;
+	width: 96%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+span{
+	font-size: 22px;
+	color: #888;
+	padding: 10px;
+}
+button{
+	border:2px solid #ccc;
+	border-radius: 5px;
+	color: bold;
+	cursor: pointer;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+h1 {
+	text-align: center;
+	color: #4169E1;
+}
+
+a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}

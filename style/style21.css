@@ -1,0 +1,127 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    justify-content: top;
+    align-items: center;
+    margin-bottom: 100px;
+    background-image: url(../slike/xhero_2.jpg);
+    background-size: cover;
+}
+
+.d1 {
+    width: 600px;
+    height: 600px;
+    border-style: ridge;
+    margin-top: 0px;
+    margin-left: 200px;
+    background: rgba(0, 0, 0, .5);
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.s1 {
+    font-size: 16pt;
+    color: darkblue;
+    margin: 5px;
+}
+
+.i1 {
+    border-radius: 5px;
+    border-color: lightgray;
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 500px;
+    height: 35px;
+    font-size: 16pt;
+}
+
+.b1 {
+    width: 170px;
+    height: 50px;
+    padding: 4px;
+    font-size: 16pt;
+    color: white;
+    background-color: #FF4C4C;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.d4 {
+    border-style: dotted;
+    border-radius: 3px;
+    width: 520px;
+    background-color: white;
+}
+
+.d5 {
+    border-collapse: collapse;
+    width: 100%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+}
+
+th {
+    background-color: #8e8787;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.d6 {
+    width: 1500px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.d7 {
+    width: 1000px;
+    height: 1000px;
+    border-style: solid;
+    margin: 100px;
+    padding: 30px, 100px, 100px, 100px;
+}
+
+a {
+    width: 170px;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding: 4px;
+    font-size: 16pt;
+    color: white;
+    background-color: #FF4C4C;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    float: top;
+}
+
+a:hover {
+    opacity: .7;
+}
